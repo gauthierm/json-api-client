@@ -11,6 +11,17 @@
 			"email": "charles@silverorange.com"
 		}
 	],
+	"repositories": [
+		{
+			"type": "composer",
+			"url": "https://composer",
+			"options": {
+				"ssl": {
+					"cafile": "/etc/nginx/tls.crt/composer.crt"
+				}
+			}
+		}
+	],
 	"require": {
 		"php": ">=5.4.0",
 		"guzzlehttp/guzzle": "^6.2.2"
